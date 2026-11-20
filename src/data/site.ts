@@ -131,7 +131,7 @@ export const projects = [
     status: "En développement" as ProjectStatus,
     link: "https://github.com/Yannickeudes/bro-sur",
     note: null,
-    featured: false,
+    featured: true,
   },
   {
     name: "Found",
