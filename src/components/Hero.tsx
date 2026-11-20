@@ -18,7 +18,7 @@ export default function Hero() {
   return (
     <section
       id="accueil"
-      className="bg-grid relative flex min-h-screen items-center overflow-hidden pt-16"
+      className="bg-grid relative flex min-h-screen items-center overflow-hidden"
     >
       {/* watermark */}
       <div
@@ -50,7 +50,7 @@ export default function Hero() {
           <Reveal delay={150}>
             <div className="mt-10 flex flex-wrap gap-4">
               <a
-                href="#projets"
+                href="/projets"
                 className="rounded-full bg-cream px-7 py-3.5 font-mono text-xs font-semibold tracking-widest text-ink uppercase transition-transform hover:-translate-y-0.5"
               >
                 Voir les projets
