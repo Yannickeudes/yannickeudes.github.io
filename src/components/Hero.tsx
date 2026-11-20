@@ -25,7 +25,7 @@ export default function Hero() {
         aria-hidden="true"
         className="pointer-events-none absolute -bottom-10 left-0 font-display text-[22vw] leading-none font-bold tracking-tighter whitespace-nowrap opacity-60 select-none"
       >
-        <span className="text-outline">CÉDRIC</span>
+        <span className="fluoro">CÉDRIC</span>
       </div>
 
       <div className="relative z-10 mx-auto grid w-full max-w-7xl gap-14 px-6 py-20 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
