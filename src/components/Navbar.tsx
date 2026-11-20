@@ -32,12 +32,6 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
-        <Link
-          href="/#contact"
-          className="rounded-full bg-accent px-4 py-2 font-mono text-xs font-medium tracking-wider text-white uppercase transition-colors hover:bg-accent/85"
-        >
-          Contact
-        </Link>
       </nav>
       {/* mobile nav */}
       <nav className="border-t border-line/40 lg:hidden">

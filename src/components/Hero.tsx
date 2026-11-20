@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { site, universes } from "@/data/site";
+import FxName from "./FxName";
 import Reveal from "./Reveal";
 
 function FrameCorners() {
@@ -37,7 +38,7 @@ export default function Hero() {
               <span>{site.coordinates}</span>
             </p>
             <h1 className="font-display text-4xl leading-[1.02] font-bold tracking-tight sm:text-6xl lg:text-7xl">
-              {site.name}
+              <FxName />
             </h1>
             <p className="font-display mt-5 text-2xl font-semibold tracking-tight text-accent sm:text-3xl">
               {site.positioning}
