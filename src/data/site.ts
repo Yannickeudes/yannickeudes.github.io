@@ -71,6 +71,21 @@ export type ProjectStatus = "En développement" | "En cours" | "En vérification
 
 export const projects = [
   {
+    name: "Bro Sûr",
+    tagline: "Plateforme communautaire d'entraide pour les jeunes",
+    description:
+      "Plateforme dédiée à l'expression, l'écoute et l'entraide entre jeunes, pensée pour créer un espace sûr d'échange et de soutien.",
+    problem: "Besoin : offrir aux jeunes un lieu d'expression et de entraide.",
+    solution:
+      "Application web JavaScript structurée pour la communication et le partage communautaire.",
+    role: "Conception & développement",
+    tech: ["JavaScript"],
+    status: "En développement" as ProjectStatus,
+    link: "https://github.com/Yannickeudes/bro-sur",
+    note: null,
+    featured: true,
+  },
+  {
     name: "EduPaie",
     tagline: "Application desktop de gestion des paiements scolaires",
     description:
@@ -116,21 +131,6 @@ export const projects = [
     status: "En vérification" as ProjectStatus,
     link: null,
     note: "Détails du rôle et fonctionnalités finalisées en cours de confirmation.",
-    featured: true,
-  },
-  {
-    name: "Bro Sûr",
-    tagline: "Plateforme communautaire d'entraide pour les jeunes",
-    description:
-      "Plateforme dédiée à l'expression, l'écoute et l'entraide entre jeunes, pensée pour créer un espace sûr d'échange et de soutien.",
-    problem: "Besoin : offrir aux jeunes un lieu d'expression et de entraide.",
-    solution:
-      "Application web JavaScript structurée pour la communication et le partage communautaire.",
-    role: "Conception & développement",
-    tech: ["JavaScript"],
-    status: "En développement" as ProjectStatus,
-    link: "https://github.com/Yannickeudes/bro-sur",
-    note: null,
     featured: true,
   },
   {
