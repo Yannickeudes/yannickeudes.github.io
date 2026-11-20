@@ -17,18 +17,15 @@ export default function FxName({ className = "" }: { className?: string }) {
     <span className={className} role="text" aria-label={name}>
       {name.split("").map((ch, i) => {
         const isCedric = i >= cedricStart && i < cedricEnd;
-        const style = cedricHover
-          ? { color: `hsl(${(i * 47) % 360} 85% 62%)` }
-          : hovered === i
-            ? { color: "#d9603b" }
-            : undefined;
 
         return (
           <span
             key={i}
             aria-hidden="true"
-            className="inline-block transition-colors duration-200"
-            style={style}
+            className={`inline-block transition-colors duration-200 ${cedricHover ? "fx-split" : ""}`}
+            style={
+              !cedricHover && hovered === i ? { color: "#d9603b" } : undefined
+            }
             onMouseEnter={() => {
               setHovered(i);
               if (isCedric) setCedricHover(true);

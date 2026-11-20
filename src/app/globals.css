@@ -109,6 +109,14 @@ body {
   color: transparent;
 }
 
+.fx-split {
+  background: linear-gradient(to bottom, #f2efe9 0%, #f2efe9 50%, #d9603b 50%, #d9603b 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
 .fluoro {
   -webkit-text-stroke: 1px rgb(180 255 57 / 0.4);
   color: rgb(180 255 57 / 0.06);
