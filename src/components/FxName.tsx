@@ -4,6 +4,7 @@ import { useState } from "react";
 import { site } from "@/data/site";
 
 const CEDRIC = "Cédric";
+const BIG_WORDS = [CEDRIC, "APETOH"];
 
 export default function FxName({ className = "" }: { className?: string }) {
   const [hovered, setHovered] = useState<number | null>(null);
@@ -19,13 +20,13 @@ export default function FxName({ className = "" }: { className?: string }) {
   return (
     <span className={className} role="text" aria-label={name}>
       {words.map((word, wi) => {
-        const isCedricWord = word === CEDRIC;
+        const isBigWord = BIG_WORDS.includes(word);
         return (
           <span key={wi}>
             {wi > 0 ? " " : null}
             <span
               className={`inline-block align-baseline ${
-                isCedricWord
+                isBigWord
                   ? "text-5xl sm:text-7xl lg:text-8xl"
                   : "text-xl text-muted sm:text-3xl lg:text-4xl"
               }`}
