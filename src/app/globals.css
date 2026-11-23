@@ -117,15 +117,6 @@ body {
   color: transparent;
 }
 
-.fluoro {
-  -webkit-text-stroke: 1px rgb(180 255 57 / 0.4);
-  color: rgb(180 255 57 / 0.06);
-  text-shadow:
-    0 0 14px rgb(180 255 57 / 0.7),
-    0 0 45px rgb(180 255 57 / 0.42),
-    0 0 110px rgb(180 255 57 / 0.25);
-}
-
 @media (prefers-reduced-motion: reduce) {
   .reveal {
     opacity: 1;

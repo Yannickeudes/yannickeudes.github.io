@@ -26,7 +26,7 @@ export default function Hero() {
         aria-hidden="true"
         className="pointer-events-none absolute -bottom-10 left-0 font-display text-[22vw] leading-none font-bold tracking-tighter whitespace-nowrap opacity-60 select-none"
       >
-        <span className="fluoro">CÉDRIC</span>
+        <span className="text-outline">CÉDRIC</span>
       </div>
 
       <div className="relative z-10 mx-auto grid w-full max-w-7xl gap-14 px-6 py-20 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
@@ -37,7 +37,7 @@ export default function Hero() {
               <span className="text-accent">/</span>
               <span>{site.coordinates}</span>
             </p>
-            <h1 className="font-display text-4xl leading-[1.02] font-bold tracking-tight sm:text-6xl lg:text-7xl">
+            <h1 className="font-display font-bold tracking-tight">
               <FxName />
             </h1>
             <p className="font-display mt-5 text-2xl font-semibold tracking-tight text-accent sm:text-3xl">
