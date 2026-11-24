@@ -32,11 +32,6 @@ export default function Hero() {
       <div className="relative z-10 mx-auto grid w-full max-w-7xl gap-14 px-6 py-20 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
         <div>
           <Reveal>
-            <p className="mb-6 flex flex-wrap items-center gap-x-4 gap-y-2 font-mono text-xs tracking-[0.3em] text-muted uppercase">
-              <span>{site.location}</span>
-              <span className="text-accent">/</span>
-              <span>{site.coordinates}</span>
-            </p>
             <h1 className="font-display font-bold tracking-tight">
               <FxName />
             </h1>
