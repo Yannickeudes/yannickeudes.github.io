@@ -88,9 +88,7 @@ export default function Footer() {
 
         <div className="mt-20 flex flex-col items-start justify-between gap-4 border-t border-line pt-8 font-mono text-xs text-muted sm:flex-row sm:items-center">
           <p>© 2026 {site.name}</p>
-          <p>
-            {site.location} — {site.coordinates}
-          </p>
+          <p>{site.positioning}</p>
         </div>
       </div>
     </footer>
