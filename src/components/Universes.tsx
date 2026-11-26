@@ -36,11 +36,16 @@ function Motif({ kind }: { kind: string }) {
             cx="60"
             cy="60"
             r={r}
-            stroke={i === 3 ? "#d9603b" : "#26262b"}
+            style={{ stroke: i === 3 ? "var(--color-accent)" : "#26262b" }}
             strokeWidth="1"
           />
         ))}
-        <circle cx="60" cy="60" r="5" fill="#d9603b" />
+        <circle
+          cx="60"
+          cy="60"
+          r="5"
+          style={{ fill: "var(--color-accent)" }}
+        />
         <line x1="60" y1="0" x2="60" y2="24" stroke="#9b978e" strokeWidth="1" />
         <line x1="60" y1="96" x2="60" y2="120" stroke="#9b978e" strokeWidth="1" />
       </svg>

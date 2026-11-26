@@ -90,7 +90,7 @@ export default function ContactForm() {
           href={waHref}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex flex-1 items-center justify-center rounded-full bg-accent px-6 py-3.5 text-sm font-medium text-white transition-colors hover:bg-accent/85 sm:flex-none"
+          className="inline-flex flex-1 items-center justify-center rounded-full bg-accent px-6 py-3.5 text-sm font-semibold text-ink transition-colors hover:bg-accent/85 sm:flex-none"
         >
           Envoyer via WhatsApp
         </a>

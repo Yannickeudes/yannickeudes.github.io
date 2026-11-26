@@ -44,7 +44,7 @@ export default function FxName({ className = "" }: { className?: string }) {
                     }`}
                     style={
                       !cedricHover && hovered === i
-                        ? { color: "#d9603b" }
+                        ? { color: "var(--color-accent)" }
                         : undefined
                     }
                     onMouseEnter={() => {

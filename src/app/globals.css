@@ -7,7 +7,7 @@
   --color-line: #26262b;
   --color-cream: #f2efe9;
   --color-muted: #9b978e;
-  --color-accent: #d9603b;
+  --color-accent: #b4ff39;
   --color-rec: #ff453a;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
@@ -110,7 +110,7 @@ body {
 }
 
 .fx-split {
-  background: linear-gradient(to bottom, #f2efe9 0%, #f2efe9 50%, #d9603b 50%, #d9603b 100%);
+  background: linear-gradient(to bottom, #f2efe9 0%, #f2efe9 50%, var(--color-accent) 50%, var(--color-accent) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
