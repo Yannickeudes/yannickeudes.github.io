@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from "next";
+import type { Metadata } from "next";
 import { Geist, Geist_Mono, Space_Grotesk } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -18,10 +18,6 @@ const spaceGrotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
   subsets: ["latin"],
 });
-
-export const viewport: Viewport = {
-  themeColor: "#f4f1ea",
-};
 
 export const metadata: Metadata = {
   title: "Cédric APETOH — Code. Image. Signal.",
