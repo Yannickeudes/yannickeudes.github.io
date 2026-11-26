@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import About from "@/components/About";
 import Stack from "@/components/Stack";
+import Method from "@/components/Method";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title: "À propos — Cédric APETOH",
@@ -13,6 +15,8 @@ export default function AProposPage() {
     <>
       <About />
       <Stack />
+      <Method />
+      <Faq />
     </>
   );
 }

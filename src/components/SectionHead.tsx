@@ -6,7 +6,7 @@ export default function SectionHead({
   title,
   description,
 }: {
-  index: string;
+  index?: string;
   code: string;
   title: string;
   description?: string;
@@ -15,9 +15,16 @@ export default function SectionHead({
     <Reveal>
       <div className="flex items-end justify-between gap-6">
         <div>
-          <p className="font-mono text-xs tracking-[0.3em] text-accent uppercase">
-            {index} — {code}
-          </p>
+          {index && (
+            <p className="font-mono text-xs tracking-[0.3em] text-accent uppercase">
+              {index} — {code}
+            </p>
+          )}
+          {!index && (
+            <p className="font-mono text-xs tracking-[0.3em] text-accent uppercase">
+              {code}
+            </p>
+          )}
           <h2 className="font-display mt-3 text-3xl font-bold tracking-tight sm:text-5xl">
             {title}
           </h2>

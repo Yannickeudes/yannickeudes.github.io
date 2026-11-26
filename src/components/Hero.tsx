@@ -41,6 +41,10 @@ export default function Hero() {
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">
               {site.positioningDetail}
             </p>
+            <p className="mt-6 inline-flex items-center gap-2.5 rounded-full border border-line px-4 py-2 font-mono text-[10px] tracking-[0.25em] text-muted uppercase">
+              <span className="rec-dot h-1.5 w-1.5 rounded-full bg-accent" />
+              Disponible pour de nouveaux projets
+            </p>
           </Reveal>
 
           <Reveal delay={150}>
